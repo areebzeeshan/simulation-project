@@ -1,11 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import videoFile from '../assests/videos/animation.webm';
-import './Button.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import videoFile from "../assests/videos/animation.webm";
+import "./Button.css";
 
 function LandingPage() {
   return (
-
     <div className="min-h-screen flex items-center justify-center relative">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
@@ -19,23 +18,24 @@ function LandingPage() {
           Welcome to the Queueing Model Simulator
         </h1>
         <h2 className="text-3xl text-blue-300 font-semibold mb-4">
-  Presented By:
-</h2>
-<ul className="list-disc text-blue-300 text-2xl italic pb-6 pl-6">
-  <li>Anas Bin Irfan</li>
-  <li>Fayyaz Ali</li>
-  <li>Qasim Khan</li>
-  <li>Areeb Zeeshan</li>
-  <li>Zia Ali</li>
-  <li>Shaheer Khan</li>
-  <li>Rumsha Rashid</li>
-  <li>Rabika Mazhar</li>
-  <li>Muntaha Faisal</li>
-</ul>
-
+          Presented By:
+        </h2>
+        <ul className="list-disc text-blue-300 text-2xl italic pb-6 pl-6">
+          <li>Anas Bin Irfan</li>
+          <li>Adnan Cheema</li>
+          <li>Areeb Zeeshan</li>
+        </ul>
 
         <p className="text-white glowing-text text-xl mb-8 w-2/3 mx-auto">
-          Introducing the Queueing Model Simulator project! This interactive tool brings the power of MM1, MG1, GG1, MM2, MG2 and GG2 queueing models to your fingertips. Explore the dynamics of different queueing systems, analyze arrival rates, service times, and queue lengths. Gain insights into performance measures and optimize resource allocation. Whether you're studying operations research or analyzing real-world scenarios, our simulator offers a user-friendly interface for understanding and simulating queueing models effectively. Dive into the world of queueing theory with this educational and practical tool.
+          Introducing the Queueing Model Simulator project! This interactive
+          tool brings the power of MM1, MG1, GG1, MM2, MG2 and GG2 queueing
+          models to your fingertips. Explore the dynamics of different queueing
+          systems, analyze arrival rates, service times, and queue lengths. Gain
+          insights into performance measures and optimize resource allocation.
+          Whether you're studying operations research or analyzing real-world
+          scenarios, our simulator offers a user-friendly interface for
+          understanding and simulating queueing models effectively. Dive into
+          the world of queueing theory with this educational and practical tool.
         </p>
 
         <div className="space-x-4 space-y-16">
@@ -86,10 +86,8 @@ function LandingPage() {
             </Link>
           </div>
         </div>
-
       </div>
     </div>
-
   );
 }
 
